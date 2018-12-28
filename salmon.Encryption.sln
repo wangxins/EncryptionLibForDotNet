@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt.RSAEncryption", "salmon.RSAEncryption\Encrypt.RSAEncryption.csproj", "{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encryption.RSA", "Encryption.RSA", "{4E548B85-2EDD-44C0-B263-58C94F6C1FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asymmetry", "asymmetry", "{F3EC8176-E1E7-4061-891B-BC74A1E3ABD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Symmetry", "Symmetry", "{F4FFDD71-2391-4A62-BC2E-580E06B31BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt.AESEncryption", "..\..\AES\Encrypt.AESEncryption\Encrypt.AESEncryption.csproj", "{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E}.Debug|Any CPU.Build.0 = Debug|x86
+		{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{387167F6-C552-4D5F-8BF3-3CC59CFE1B7E} = {4E548B85-2EDD-44C0-B263-58C94F6C1FA3}
+		{4E548B85-2EDD-44C0-B263-58C94F6C1FA3} = {F3EC8176-E1E7-4061-891B-BC74A1E3ABD1}
+		{54A65C6F-0AD8-4DE6-A12A-58D3FA123B98} = {F4FFDD71-2391-4A62-BC2E-580E06B31BF9}
+	EndGlobalSection
+EndGlobal
